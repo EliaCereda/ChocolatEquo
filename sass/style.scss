@@ -773,8 +773,9 @@ $pattern-background-size: 25em;
 		.inner {
 			@include vendor-property('animation', 'reveal-banner 1s 0.25s ease-in-out');
 			@include vendor-property('animation-fill-mode', 'forwards');
-			background: transparentize($color-banner-inner-bg, 0.5);
-			color: $color-banner-inner-fg;
+			/*background: transparentize($color-banner-inner-bg, 0.5);
+			color: $color-banner-inner-fg;*/
+            color: white;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;

@@ -51,7 +51,7 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	p, ul, ol, dl, table, blockquote {
@@ -63,7 +63,6 @@
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -73,8 +72,7 @@
 		}
 
 	h2 {
-		font-size: 1.5em;
-		letter-spacing: 0.1em;
+		font-size: 2em;
 	}
 
 	h3 {
@@ -620,7 +618,7 @@
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 1em 1.5em;
+		padding: 0.5em 1.5em 0.5em 1.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -721,7 +719,7 @@
 
 			#header.alt nav {
 				right: 2.5em;
-				top: 1.75em;
+				top: 1em;
 			}
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
@@ -813,8 +811,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(255,255,255, 0.8);
-			color: saddlebrown;
+			color: white;
 			display: inline-block;
 			opacity: 0;
 			padding: 1.5em;
@@ -829,21 +826,17 @@
 			}
 
 				#banner .inner header h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					font-size: 2.5em;
+					font-size: 3.5em;
 					font-weight: 900;
-					letter-spacing: 0.2em;
+					letter-spacing: 0.1em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+                    vertical-align: middle;
 				}
 
 			#banner .inner p {
-				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
 			}
 
 				#banner .inner p a {

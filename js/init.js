@@ -9,10 +9,6 @@
 jQuery(function($) {
     
     
-    $('a').smoothScroll({
-        offset:72
-    });
-    
     
 	skel.init({
 		reset: 'full',
@@ -102,7 +98,7 @@ jQuery(function($) {
 			}
 
 		// Scrolly links.
-			$('.scrolly').scrolly({
+			$('a').scrolly({
 				speed: 1000,
 				offset: -10
 			});
