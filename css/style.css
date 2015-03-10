@@ -879,9 +879,13 @@
 		padding-top: 5em;
 	}
 
-/* CTA */
+/* Who Are We */
 
-	#cta {
+    .circle {
+    border-radius: 50%;
+    }
+
+	#who_are_we {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
@@ -889,13 +893,21 @@
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
-		padding: 5em;
 		text-align: center;
 	}
 
-		#cta header {
+		#who_are_we header {
 			margin-bottom: 2em;
 		}
+    #who_are_we div {
+        display: inline-block;
+        padding: 20px;
+    }
+
+    #who_are_we div .circle {
+        height: 150px;
+        width: 150px;
+    }
 
 /* Footer */
 
