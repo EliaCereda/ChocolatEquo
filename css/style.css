@@ -47,7 +47,7 @@
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-color: rgb(255,255,255);
 		}
 
 	strong, b {
@@ -725,7 +725,7 @@
 			}
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
-					border: solid 1px;
+					background-color: white;
 				}
 
 /* Dropotron */
@@ -799,6 +799,7 @@
 		cursor: default;
 		padding: 8em 0;
 		text-align: center;
+        vertical-align: middle;
 	}
 
 		#banner .inner {
@@ -818,6 +819,7 @@
 			opacity: 0;
 			padding: 1.5em;
 			text-align: center;
+            vertical-align: middle;
 		}
 
 			#banner .inner header {
