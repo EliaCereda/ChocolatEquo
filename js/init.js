@@ -6,10 +6,12 @@
 
 
 
-(function($) {
+jQuery(function($) {
     
     
-    $('a').smoothScroll();
+    $('a').smoothScroll({
+        offset:72
+    });
     
     
 	skel.init({
@@ -136,4 +138,4 @@
 
 	});
 
-})(jQuery);
+});
