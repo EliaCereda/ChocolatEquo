@@ -881,10 +881,6 @@
 
 /* Who Are We */
 
-    .circle {
-    border-radius: 50%;
-    }
-
 	#who_are_we {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
@@ -899,14 +895,29 @@
 		#who_are_we header {
 			margin-bottom: 2em;
 		}
+    #who_are_we header {
+            padding-top: 72px;
+    }
     #who_are_we div {
         display: inline-block;
         padding: 20px;
+        
+        min-width: 250px;
     }
 
     #who_are_we div .circle {
         height: 150px;
         width: 150px;
+        
+        border-radius: 50%;
+        
+        box-shadow: 0 0 10px black;
+    }
+
+/* Products */
+
+    #products header h3 {
+        font-weight: bold;
     }
 
 /* Footer */
