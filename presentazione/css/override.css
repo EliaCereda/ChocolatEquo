@@ -1,0 +1,189 @@
+/* chocolatEquo */
+
+/*BACKGROUND style def.*/
+body {
+	background: url('../img/banner.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Proxima Nova Alt';
+}
+/*END BACKGROUND style def.*/
+
+/*FONT Style def.*/
+
+@font-face {
+  font-family: 'Proxima Nova Alt';
+  src: url('.../font/ProximaNovaAlt/Thin-webfont.eot');
+  src: url('.../font/ProximaNovaAlt/Thin-webfont.eot?#iefix') format('embedded-opentype'),
+	   url('.../font/ProximaNovaAlt/Thin-webfont.woff2') format('woff2'),
+	   url('.../font/ProximaNovaAlt/Thin-webfont.woff') format('woff'),
+	   url('.../font/ProximaNovaAlt/Thin-webfont.ttf') format('truetype'),
+	   url('.../font/ProximaNovaAlt/Thin-webfont.svg#proxima_nova_altthin') format('svg');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt';
+  src: url('.../font/ProximaNovaAlt/Light-webfont.eot');
+  src: url('.../font/ProximaNovaAlt/Light-webfont.eot?#iefix') format('embedded-opentype'),
+	   url('.../font/ProximaNovaAlt/Light-webfont.woff2') format('woff2'),
+	   url('.../font/ProximaNovaAlt/Light-webfont.woff') format('woff'),
+	   url('.../font/ProximaNovaAlt/Light-webfont.ttf') format('truetype'),
+	   url('.../font/ProximaNovaAlt/Light-webfont.svg#proxima_nova_altlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt';
+  src: url('.../font/ProximaNovaAlt/Semibold-webfont.eot');
+  src: url('.../font/ProximaNovaAlt/Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	   url('.../font/ProximaNovaAlt/Semibold-webfont.woff2') format('woff2'),
+	   url('.../font/ProximaNovaAlt/Semibold-webfont.woff') format('woff'),
+	   url('.../font/ProximaNovaAlt/Semibold-webfont.ttf') format('truetype'),
+	   url('.../font/ProximaNovaAlt/Semibold-webfont.svg#proxima_nova_altsemibold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/*Class "logo" font style*/
+.logo {
+	font-family: 'Proxima Nova Alt', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+    color: rgb(102, 102, 102);
+}
+
+/*Class "slide_title" font style*/
+.slide_title {
+	font-family: 'Proxima Nova Alt', sans-serif;
+	font-size: 37px;
+    color:rgb(139, 69, 19);
+    font-weight: bold;
+}
+
+	/*justify text class*/
+.justify{
+	text-align: justify;
+}
+
+.inline{
+	display: inline-block;
+}
+
+	/*img description text class*/
+
+.products_img{
+    margin: 0.9em;
+    height: 150px;
+    width: 200px;
+}
+
+.products {
+    display: inline-block;
+    text-align: center;
+}
+
+.team {
+    display: inline-block;
+    text-align: center;
+    min-width: 190px;
+    padding: 0 32px 0 32px;
+    
+}
+
+.team_pic {
+    border-radius: 50%;
+}
+
+.team > p {
+    font-size: 25px;
+}
+
+.description{
+	font-size:25px;
+	text-align:right;
+}
+
+	/*cit. text class*/
+.cit{
+	color: saddlebrown;
+}
+	/*list style*/
+ul > li{
+	list-style: disc;
+	list-style-position: inside;
+	color: rgb(142, 142, 142);
+}
+
+li > ul > li{
+	list-style: square;
+	list-style-position: inside;
+	color: rgb(182, 182, 182);
+}
+
+ul{
+	margin-bottom: 8px;
+}
+
+/*END FONT style def.*/
+
+/*SLIDES style def.*/
+.credits{
+	background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    color: rgb(102, 102, 102);
+    font-family: 'Proxima Nova Alt', sans-serif;
+	font-size: 40px;
+	color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+
+.slide_image{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+
+/*When you define an image for a side position set the 'width' property to 50%*/
+
+img{
+	border-radius: 5px;
+}
+
+.image_right{
+	float: right;
+	margin-top: 8px;
+}
+.image_left{
+	float: left;
+	margin-top: 8px;
+}
+
+/*END SLIDES style def.*/
+
+
+.alert {
+	position: fixed;
+	width: 100%;
+	top: 150px;
+}
+
+.alert > div {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	background:rgba(255,255,255,0.7);
+	font-size: 25px;
+	font-style: italic;
+}
