@@ -202,7 +202,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: saddlebrown;
 		}
 
 	input[type="text"],
