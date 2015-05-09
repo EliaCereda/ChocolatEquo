@@ -916,6 +916,12 @@
     #products header h3 {
         font-weight: bold;
     }
+    
+/* Partners */
+
+	#partners a {
+		border: none;
+	}
 
 /* Footer */
 
