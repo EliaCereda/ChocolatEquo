@@ -722,6 +722,10 @@
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
 					background-color: white;
 				}
+				
+		#header .button.special {
+			background-color: transparent;
+		}
 
 /* Dropotron */
 
